@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#e6cbc8"
+    tools:context="com.example.speechandtextapp.MainActivity">
+
+    <Button
+        android:id="@+id/speechtotext_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:background="#b37171"
+        android:text="speech to text"/>
+    <Button
+        android:id="@+id/texttospeech_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:background="#b37171"
+        android:layout_marginTop="20dp"
+        android:text=" text to speech"/>
+</LinearLayout>
